@@ -1,0 +1,19 @@
+{
+  "info": {
+    "name": "Techeazy DevOps App",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Check Home Page",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://{{instance_ip}}",
+          "host": ["{{instance_ip}}"]
+        }
+      }
+    }
+  ]
+}
